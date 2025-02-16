@@ -24,7 +24,40 @@ A React-based web application that allows users to search for recipes, view deta
 4- 🔄 Page Navigation
 
 - Uses React Router for seamless page transitions.
-  
+
+# ✨ Additional Features
+1- 🌎 Filter by Country – Users can select cuisine from a dropdown menu.
+2- 🔍 Search Functionality – Find meals by name.
+3- 📌 Save to Favorites – Users can add meals to a favorites list.
+
+# 🔍 API Used
+- TheMealDB API – Provides meal data, images, ingredients, and categories.
+
+# 🛠️ Tech Stack
+- Frontend: React.js, React Router, Context API
+- Styling: Tailwind CSS
+- API Calls: Axios
+- State Management: useState, useEffect, Context API
+
+# 📂 Project Structure
+/src
+ ├── /components
+ │   ├── Navbar.js
+ │   ├── SearchBar.js
+ │
+ ├── /pages
+ │   ├── HomePage.js
+ │   ├── RecipeDetails.js
+ │   ├── FavoritesPage.js
+ │
+ ├── /context
+ │   ├── FavoritesContext.js
+ │
+ ├── App.js
+ ├── index.js
+ ├── index.css
+ ├── App.css
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
