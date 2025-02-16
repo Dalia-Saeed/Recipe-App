@@ -10,14 +10,17 @@ A React-based web application that allows users to search for recipes, view deta
 - Displays a list of recipes fetched from an API.
 - Users can search for meals by name.
 - Option to filter meals by country/cuisine.
+  
 2- 📄 Recipe Details Page
 
 -Shows ingredients, instructions, and images of selected recipes.
 - Users can add recipes to favorites.
+  
 3- ❤️ Favorites Page
 
 - Allows users to save and manage their favorite meals.
 - Uses Context API to store favorite recipes.
+  
 4- 🔄 Page Navigation
 
 - Uses React Router for seamless page transitions.
