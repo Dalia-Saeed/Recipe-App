@@ -42,13 +42,19 @@ A React-based web application that allows users to search for recipes, view deta
 # 📂 Project Structure
 /src
 ├── /components
-│ ├── Navbar.js
-│ ├── SearchBar.js
+
+│   ├── Navbar.js
+│    ├── SearchBar.js
 │
+
 ├── /pages
+
 │ ├── HomePage.js
+
 │ ├── RecipeDetails.js
+
 │ ├── FavoritesPage.js
+
 │
 ├── /context
 │ ├── FavoritesContext.js
