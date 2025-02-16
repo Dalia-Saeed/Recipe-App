@@ -39,33 +39,7 @@ A React-based web application that allows users to search for recipes, view deta
 - API Calls: Axios
 - State Management: useState, useEffect, Context API
 
-# 📂 Project Structure
-/src
-├── /components
 
-│   ├── Navbar.js
-│    ├── SearchBar.js
-│
-
-├── /pages
-
-│ ├── HomePage.js
-
-│ ├── RecipeDetails.js
-
-│ ├── FavoritesPage.js
-
-│
-├── /context
-│ ├── FavoritesContext.js
-│
-├── App.js
-├── index.js
-├── index.css
-├── App.css
-
-Copy
-Edit
 
 # React + Vite
 
