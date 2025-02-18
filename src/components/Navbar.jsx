@@ -9,7 +9,7 @@ function Navbar({ onSearch }) {
   //  Update search term while typing
   const handleInputChange = (e) => {
     setSearchTerm(e.target.value);
-    onSearch(e.target.value); // 🔥 Live search as user types
+    onSearch(e.target.value); //  Live search as user types
   };
 
   //  Prevent page reload on form submit
