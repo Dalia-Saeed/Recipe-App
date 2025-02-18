@@ -1,3 +1,4 @@
+https://dalia-recipe-react-app.netlify.app/
 # 🍽️ Recipe Finder App
 
 A React-based web application that allows users to search for recipes, view details, and save favorite meals using TheMealDB API.
