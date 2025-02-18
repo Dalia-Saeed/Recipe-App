@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { useFavorites } from "../context/FavoritesContext";
-import { FaHeart, FaRegHeart } from "react-icons/fa"; // ❤️ Import heart icons
+import { FaHeart, FaRegHeart } from "react-icons/fa"; // Import heart icons
 
 function RecipeDetails() {
   const { id } = useParams();

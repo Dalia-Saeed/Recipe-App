@@ -11,7 +11,7 @@ function HomePage() {
   const [error, setError] = useState(null);
   const [selectedCountry, setSelectedCountry] = useState("All");
 
-  // ✅ List of Countries (Add more if needed)
+  //  List of Countries (Add more if needed)
   const countries = [
     { code: "All", name: "All" },
     { code: "Egyptian", name: "Egyptian" },
@@ -23,7 +23,7 @@ function HomePage() {
     { code: "Japanese", name: "Japanese" },
   ];
 
-  // ✅ Fetch Meals (All or by country)
+  //  Fetch Meals (All or by country)
   useEffect(() => {
     let url = "https://www.themealdb.com/api/json/v1/1/search.php?s="; // Default: All meals
 
